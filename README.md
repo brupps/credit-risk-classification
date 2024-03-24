@@ -2,11 +2,11 @@
 
 ## Overview of the Analysis
 
-For this challenge, I a logistic regression model to train and evaluate a model for loan risk. I used historical lending activity  data from a peer-to-peer lending services company to build a model and identify the creditworthiness of borrows.
+For this challenge, I used a logistic regression model to train and evaluate a model for loan risk. I used historical lending activity  data from a peer-to-peer lending services company to build a model and identify the creditworthiness of borrowers.
 
-The data included the loan size, interest rate, borrower's income, debt-to-income ratio, derogatory marks, their total debt and current loan status. The loan status was either a healthy status (0) or a risky loan (1).
+The data included the loan size, interest rate, borrower's income, debt-to-income ratio, derogatory marks, their total debt and current loan status. The loan status was either  healthy (0) or a risky (1).
 
-Using the logistic regression model I was trying to predict whether the loan would be a good investment on behalf of the lender or a risky investment. I separated the data into training data--to train the model--and testing data--to test the model's results. 
+Using the logistic regression model I was determined to predict whether the loan would be a good investment on behalf of the lender or a risky investment. I separated the data into training data--to train the model--and testing data--to test the model's results. 
 
 Then I used a confusion matrix to and classification report to evaluate the model.
 
@@ -18,7 +18,7 @@ The confusion matrix generated a report that showed:
 - 18679 true negatives with 80 false negatives (0.004% inaccuracy)
 - 67 false positives with 558 true positives (12% inaccuracy)
 
-The classification report showed 1 99% overall accuracy and the precision being:
+The classification report showed a 99% overall accuracy and a breakdown of the following:
  - Healthy loans (0)
     - Precision: 100% (rounded up)
     - Recall: 100%
