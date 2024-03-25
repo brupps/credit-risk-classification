@@ -31,4 +31,4 @@ The classification report showed a 99% overall accuracy and a breakdown of the f
 
 ## Summary
 
-Overall the logistic regression model proved to be an accurate assessment of credit worthiness to determine whether a loan would be healthy or risky. However, the ratio between healthy and risky loans was greatly unbalanced (625 to 18,759) and may lead to more weight being applied to healthy loans. Further data may be needed to truly be an accurate predictor of credit worthiness.
+Overall the logistic regression model proved to be an accurate assessment of credit worthiness to determine whether a loan would be healthy or risky. However, the ratio between healthy and risky loans was greatly unbalanced (625 to 18,759) and may lead to more weight being applied to healthy loans. Further testing may be needed to truly be an accurate predictor of credit worthiness. Overall I would recommend this model to test for credit worthiness with the caveat of continued testing with training and testing data.
